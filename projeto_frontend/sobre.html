@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sobre | ARENA SPORTS</title>
+  <meta name="description" content="Conheça o ARENA SPORTS, portal esportivo acadêmico feito com HTML, CSS e JavaScript.">
+  <link rel="icon" type="image/png" href="img/favicon.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="brand" href="index.html"><img src="img/logo.png" width="40" height="40" alt="Logotipo ARENA SPORTS"><span class="brand-text">ARENA<span>SPORTS</span></span></a>
+      <button class="nav-toggle" type="button" aria-controls="menu-principal" aria-expanded="false" aria-label="Abrir menu">&#9776;</button>
+      <nav class="nav" id="menu-principal" aria-label="Navegação principal">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html" aria-current="page">Sobre</a></li>
+          <li><a href="servicos.html">Serviços</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="galeria.html">Galeria</a></li>
+          <li><a href="noticias.html">Notícias</a></li>
+          <li><a href="equipe.html">Equipe</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="orcamento.html" class="nav-cta">Orçamento</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="page-hero">
+      <div class="container">
+        <p class="breadcrumb"><a href="index.html">Início</a> / Sobre</p>
+        <h1>Sobre o ARENA SPORTS</h1>
+        <p>Um portal esportivo feito para mostrar dados com transparência.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container split">
+        <div>
+          <h2>O que é o ARENA SPORTS</h2>
+          <p>O ARENA SPORTS é um portal esportivo criado como projeto acadêmico de Desenvolvimento Web. A ideia é simples: reunir em um só lugar os dados de clubes, competições, jogos e classificações, deixando sempre claro de onde cada informação veio.</p>
+          <p>O portal foi construído apenas com HTML, CSS e JavaScript, sem frameworks, e funciona direto no navegador.</p>
+          <h3>Missão</h3>
+          <p>Ajudar o torcedor a acompanhar seus times com informação organizada e transparente.</p>
+          <h3>Valores</h3>
+          <ul class="checklist">
+            <li>Transparência: fonte e hora de atualização à vista</li>
+            <li>Simplicidade: poucos cliques até o que importa</li>
+            <li>Acessibilidade: tema escuro, teclado e vários idiomas</li>
+            <li>Privacidade: opção de apagar os dados do perfil</li>
+          </ul>
+        </div>
+        <div class="media-frame">
+          <video controls preload="metadata" poster="img/video-poster.png" width="960" height="540">
+            <source src="assets/video/vinheta.mp4" type="video/mp4">
+            <source src="assets/video/vinheta.webm" type="video/webm">
+            Seu navegador não reproduz vídeo HTML5.
+          </video>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt">
+      <div class="container">
+        <div class="section-head"><h2>Como o portal funciona</h2></div>
+        <div class="grid grid--2">
+          <article class="card card--plain"><h3>De onde vêm os dados</h3><p>Informações de clubes, competições, jogos e elencos são consultadas no TheSportsDB. Resumos de história e títulos vêm da Wikipédia. Cada bloco mostra a fonte e a hora da última atualização.</p></article>
+          <article class="card card--plain"><h3>O que fica no seu navegador</h3><p>Preferências como times seguidos, tema e idioma pertencem ao seu perfil. No portal há a opção &ldquo;Apagar meus dados&rdquo;, que remove essas preferências.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-band">
+          <div><h2>Veja o portal em ação</h2><p>Teste a busca de clubes e as classificações.</p></div>
+          <a class="btn btn--dark" href="projetos.html">Ver projetos</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h2>ARENA SPORTS</h2>
+          <p>Portal esportivo acadêmico: futebol, tabelas e jogos em um só lugar, com fonte e data de atualização em cada informação.</p>
+        </div>
+        <nav aria-label="Páginas do site">
+          <h2>Navegação</h2>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Mais páginas">
+          <h2>Mais</h2>
+          <ul>
+            <li><a href="noticias.html">Notícias</a></li>
+            <li><a href="equipe.html">Equipe</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="orcamento.html">Orçamento</a></li>
+          </ul>
+        </nav>
+        <div>
+          <h2>Fontes de dados</h2>
+          <ul>
+            <li><a href="https://www.thesportsdb.com" target="_blank" rel="noopener noreferrer">TheSportsDB</a></li>
+            <li><a href="https://pt.wikipedia.org" target="_blank" rel="noopener noreferrer">Wikipédia</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 ARENA SPORTS &mdash; projeto acadêmico de Desenvolvimento Web (Front-End). Sem vínculo oficial com clubes, ligas ou federações.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>
